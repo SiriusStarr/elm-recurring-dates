@@ -9,7 +9,8 @@
     "preview-docs": "elm-doc-preview",
     "elm-bump": "npm-run-all --print-name --silent --sequential test bump-version 'test:review -- --fix-all-without-prompt'",
     "bump-version": "(yes | elm bump)",
-    "postinstall": "elm-tooling install"
+    "postinstall": "elm-tooling install",
+    "review": "elm-review --fix"
   },
   "dependencies": {
     "elm-doc-preview": "^5.0.5",
